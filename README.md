@@ -1,9 +1,9 @@
-# BadDK — Script Generator
+# BadKB — Script Generator
 
 A visual DuckyScript builder for Flipper Zero BadUSB and Hak5 Rubber Ducky. Build scripts by clicking and dragging blocks from a categorized palette onto a canvas, reorder them, tweak values, and export a working payload. Includes a built-in executor to test scripts directly on your machine before deploying to a device.
 
 ![BadKB Screenshot](src/duck.png)
-
+![BadKB Preview](src/Preview.png)
 ## Features
 
 **Visual Script Builder**
@@ -66,7 +66,7 @@ The output lands at `build\Release\BadKB.exe`. The build script also copies it t
 
 ## Project Structure
 ```
-BadDK Script Generator/
+BadKB Script Generator/
   src/
     main.cpp       — Entire application (~950 lines)
     duck.ico       — Application icon
@@ -98,9 +98,9 @@ BadDK Script Generator/
 | Function | F1-F12 | Function keys |
 | Advanced | REPEAT, LED, HOLD, RELEASE | Loops, LED toggles, key holds |
 
-## Why "BadDK"?
+## Why "BadKB"?
 
-BadUSB + DuckyScript Keyboard = BadDK. Runs on anything that speaks DuckyScript — Flipper Zero, Hak5 Rubber Ducky, USB Rubber Ducky, Malduino, and custom BadUSB implementations.
+BadUSB Keyboard = BadKB. Runs on anything that speaks DuckyScript — Flipper Zero, Hak5 Rubber Ducky, USB Rubber Ducky, Malduino, and custom BadUSB implementations.
 
 ## License
 
